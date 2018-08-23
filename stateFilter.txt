@@ -1,0 +1,6 @@
+0 init
+1 IF
+2 ID
+3 EX
+4 ME
+5 WB

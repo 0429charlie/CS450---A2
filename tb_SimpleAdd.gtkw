@@ -1,0 +1,70 @@
+[*]
+[*] GTKWave Analyzer v3.3.58 (w)1999-2014 BSI
+[*] Wed Jan 24 20:36:26 2018
+[*]
+[dumpfile] "/mnt/c/Users/andrew/Documents/teach/cs450/offerings/w2018/assign/p2/tb_SimpleAdd.lx2"
+[dumpfile_mtime] "Wed Jan 24 17:53:33 2018"
+[dumpfile_size] 2073
+[savefile] "/mnt/c/Users/andrew/Documents/teach/cs450/offerings/w2018/assign/p2/tb_SimpleAdd.gtkw"
+[timestart] 0
+[size] 1468 748
+[pos] -1 -1
+*-5.429790 26 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_SimpleAdd.
+[treeopen] tb_SimpleAdd.proc.
+[sst_width] 224
+[signals_width] 262
+[sst_expanded] 1
+[sst_vpaned_height] 204
+@28
+tb_SimpleAdd.clk[0]
+tb_SimpleAdd.proc.reset[0]
+@2025
+^1 /home/andrew/teach/cs450/offerings/w2018/assign/p2/stateFilter.txt
+tb_SimpleAdd.proc.state[31:0]
+@22
+tb_SimpleAdd.proc.pc[31:0]
+tb_SimpleAdd.proc.ir[31:0]
+@800200
+-reg_read
+@24
+tb_SimpleAdd.proc.regs.rd0_num[4:0]
+@22
+tb_SimpleAdd.proc.regs.rd0_data[31:0]
+tb_SimpleAdd.proc.regs.rd1_num[4:0]
+tb_SimpleAdd.proc.regs.rd1_data[31:0]
+@1000200
+-reg_read
+@800200
+-alu
+@22
+tb_SimpleAdd.proc.a[31:0]
+tb_SimpleAdd.proc.b[31:0]
+@420
+tb_SimpleAdd.proc.sign_ext_imm[31:0]
+@22
+tb_SimpleAdd.proc.alu_out[31:0]
+@1000200
+-alu
+@800200
+-data_mem
+@22
+tb_SimpleAdd.proc.data_addr[31:0]
+tb_SimpleAdd.proc.data_in[31:0]
+tb_SimpleAdd.proc.data_out[31:0]
+@28
+tb_SimpleAdd.proc.data_rd_wr[0]
+@1000200
+-data_mem
+@800200
+-reg_write
+@24
+tb_SimpleAdd.proc.regs.wr_num[4:0]
+@22
+tb_SimpleAdd.proc.regs.wr_data[31:0]
+@28
+tb_SimpleAdd.proc.regs.wr_en[0]
+@1000200
+-reg_write
+[pattern_trace] 1
+[pattern_trace] 0
